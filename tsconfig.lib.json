@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "ES2020",
+      "baseUrl": "./src",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "declaration": true,
+      "declarationMap": true,
+      "noImplicitAny": false,
+      "jsx": "react",
+      "outDir": "es"
+    },
+    "include": ["./src/**/*"],
+    "exclude": [
+      "./src/index.tsx",
+      "./src/App.tsx",
+      "./src/App.css",
+      "./src/index.css",
+      "./src/App.test.tsx"
+    ]
+  }
