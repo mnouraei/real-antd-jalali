@@ -1,10 +1,16 @@
 
 # Ant-Design Jalali DatePicker
 A wrapper for ant-design date picker and calendar to support Jalali calendar type with [Day.js](https://github.com/iamkun/dayjs) 
+
+
 تقویم شمسی انت دیزاین
+
 This package is developed for the following versions
+
 "antd": "^5.13.2"
+
 "react": "^18.2.0"
+
 [Original version](https://github.com/saeedrahimi/antd-jalali)
 
 ## Demo
