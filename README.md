@@ -1,3 +1,5 @@
+[![npm (scoped with tag)](https://img.shields.io/npm/v/%40realmodule%2Fantd-jalali/latest.svg?style=flat-square)](https://www.npmjs.com/package/@realmodule/antd-jalali)
+[![npm](https://img.shields.io/npm/dt/%40realmodule%2Fantd-jalali)](https://www.npmjs.com/package/@realmodule/antd-jalali)
 
 # Ant-Design Jalali DatePicker
 A wrapper for ant-design date picker and calendar to support Jalali calendar type with [Day.js](https://github.com/iamkun/dayjs) 
