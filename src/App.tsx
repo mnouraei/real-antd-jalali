@@ -22,7 +22,7 @@ function App() {
     const changeDirection = (e: any) => {
         const directionValue = e.target.value;
         setDirection(directionValue);
-        console.log("changeDirection: locale:  ", locale);
+        //console.log("changeDirection: locale:  ", locale);
     };
     const changeLocale = (e: any) => {
         const localeValue = e.target.value;
