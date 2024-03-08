@@ -9,7 +9,7 @@ A wrapper for ant-design date picker and calendar to support Jalali calendar typ
 
 This package is developed for the following versions
 
-"antd": "^5.13.2"
+"antd": "^5.15.1"
 
 "react": "^18.2.0"
 

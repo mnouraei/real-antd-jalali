@@ -70,6 +70,7 @@ const generateJalaliConfig: GenerateConfig<Dayjs> = {
   getHour: (date) => date.hour(),
   getMinute: (date) => date.minute(),
   getSecond: (date) => date.second(),
+  getMillisecond: (date) => date.millisecond(),
 
   // set
   addYear: (date, diff) => date.add(diff, "year"),
@@ -81,13 +82,14 @@ const generateJalaliConfig: GenerateConfig<Dayjs> = {
   setHour: (date, hour) => date.hour(hour),
   setMinute: (date, minute) => date.minute(minute),
   setSecond: (date, second) => date.second(second),
-
+  setMillisecond: (date, diff) => date.add(diff, "ms"),
+  
   // Compare
   isAfter: (date1, date2) => date1.isAfter(date2),
   isValidate: (date) => date.isValid(),
 
   locale: {
-    getWeekFirstDate:(locale, date) => date.locale(parseLocale(locale)).weekday(0),
+    getWeekFirstDate: (locale, date) => date.locale(parseLocale(locale)).weekday(0),
     getWeekFirstDay: (locale) => dayjs().locale(parseLocale(locale)).localeData().firstDayOfWeek(),
     getWeek: (locale, date) => date.locale(parseLocale(locale)).week(),
     getShortWeekDays: (locale) => dayjs().locale(parseLocale(locale)).localeData().weekdaysMin(),
@@ -123,6 +125,8 @@ const generateJalaliConfig: GenerateConfig<Dayjs> = {
       return null;
     },
   },
+  
+  
 };
 
 export default generateJalaliConfig;
